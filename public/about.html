@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name=”robots” content="index, follow">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-204664344-1">
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-204664344-1');
+  </script>
+
+  <!-- Main Styles -->
+  <link rel="stylesheet" href="../public/style.css" />
+  <link rel="stylesheet" href="../public/custom.css" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="../media/bedesign-green-logo_mobile.png" />
+
+  <!-- AOS -->
+  <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'"
+    href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+  <!-- Font Awesome -->
+  <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+
+  <!-- Glide.js -->
+  <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'"
+    href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css"
+    integrity="sha512-wYsVD8ho6rJOAo1Xf92gguhOGQ+aWgxuyKydjyEax4bnuEmHUt6VGwgpUqN8VlB4w50d0nt+ZL+3pgaFMAmdNQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'"
+    href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css"
+    integrity="sha512-wCwx+DYp8LDIaTem/rpXubV/C1WiNRsEVqoztV0NZm8tiTvsUeSlA/Uz02VTGSiqfzAHD4RnqVoevMcRZgYEcQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>About | Logo & Web Design Agency | BeDesigns</title>
+</head>
+
+<body class="font-lato">
+
+  <!-- Navbar -->
+  <div class="" id="navbar-wrap">
+    <div class="container grid grid-cols-2 sm:px-8 md:px-12 xl:px-16 2xl:px-20">
+      <!-- Logo -->
+      <div class="col-span-1 p-3">
+        <a href="../index.html">
+          <img class="lg:hidden" src="../media/bedesign-green-logo_mobile.png" alt="" />
+          <img class="hidden lg:block" src="../media/bedesign-green-logo_desktop.png" alt="" />
+        </a>
+      </div>
+      <!-- Open Menu Button & Desktop Nav -->
+      <div class="flex items-center justify-end col-span-1 p-3">
+        <div class="hidden space-x-1 text-base font-semibold lg:inline-block text-trueGray-900">
+          <a class="inline-block p-2" href="../index.html">Home</a>
+          <a class="inline-block p-2 text-emerald-400" href="about.html">About</a>
+          <a class="inline-block p-2" href="services.html">Services</a>
+          <a class="inline-block p-2" href="portfolio.html">Portfolio</a>
+          <a class="inline-block p-2" href="contact.html">Contact</a>
+        </div>
+        <!-- Social Media -->
+        <div class="hidden ml-4 lg:inline-block">
+          <div>
+            <a href="https://www.instagram.com/bedesigns.agency/" target="_blank" rel="noopener"
+              class="duration-200 hover:text-emerald-400">
+              <i class="inline-block p-2 text-2xl fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <button class="inline-block p-2 space-y-1 transition-opacity duration-300 lg:hidden open-menu-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide Menu -->
+  <div
+    class="fixed top-0 right-0 z-50 h-screen text-sm text-white transition-all duration-300 transform translate-x-full slide-menu backdrop-filter backdrop-blur-sm bg-trueGray-900 bg-opacity-90 w-72 lg:hidden">
+    <div class="grid grid-cols-1">
+      <!-- Close Menu Button  -->
+      <div class="flex items-center justify-end col-span-1 px-8 py-2">
+        <button class="p-2 text-4xl close-menu-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+      <!-- Menu Links -->
+      <div class="col-span-1 px-8 py-2">
+        <div class="flex flex-col space-y-2 overflow-hidden font-semibold ">
+          <a class="pt-4 pb-2 transition-all duration-500 delay-100 translate-x-full border-b border-opacity-25 opacity-0 menu-link"
+            href="../index.html">Home</a>
+          <a class="pt-4 pb-2 transition-all duration-500 delay-200 translate-x-full border-b border-opacity-25 opacity-0 menu-link text-emerald-400"
+            href="about.html">About</a>
+          <a class="pt-4 pb-2 transition-all duration-500 delay-300 translate-x-full border-b border-opacity-25 opacity-0 menu-link"
+            href="services.html">Services</a>
+          <a class="pt-4 pb-2 transition-all duration-500 translate-x-full border-b border-opacity-25 opacity-0 delay-400 menu-link"
+            href="portfolio.html">Portfolio</a>
+          <a class="pt-4 pb-2 transition-all duration-500 delay-500 translate-x-full border-b border-opacity-25 opacity-0 menu-link"
+            href="contact.html">Contact</a>
+        </div>
+      </div>
+      <!-- Social Media -->
+      <div class="col-span-1 px-8 py-12 font-semibold">
+        <div class="space-y-4 transition-all duration-500 delay-500 translate-x-full opacity-0 menu-link">
+          <p>Visit Us On:</p>
+          <a href="https://www.instagram.com/bedesigns.agency/" target="_blank" rel="noopener" class="inline-block">
+            <i class="text-xl fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Menu Overlay -->
+  <div
+    class="fixed top-0 z-40 hidden w-screen h-screen bg-opacity-25 cursor-pointer slide-menu-overlay bg-trueGray-900 lg:hidden">
+  </div>
+
+  <!-- (Our Founder) -->
+  <div class="relative py-12 overflow-hidden lg:py-20 section-three-wrap">
+    <div class="container sm:px-8 md:px-12 xl:px-16 2xl:px-20">
+      <!-- Title -->
+      <div class="grid grid-cols-12 mb-4">
+        <div class="col-span-12 p-3 xl:col-span-10">
+          <h1 class="text-3xl font-bold lg:text-4xl font-montserrat text-trueGray-900" data-aos-duration="1500"
+            data-aos="fade-right" data-aos-once="true">
+            Meet our founder
+            <span class="inline-block w-8 h-1 mb-1 ml-2 bg-emerald-400"></span>
+          </h1>
+        </div>
+      </div>
+      <!-- Content -->
+      <div class="relative grid grid-cols-12 lg:gap-6">
+
+        <div class="relative z-10 justify-center col-span-12 p-3 mb-4 xl:py-14 lg:flex lg:mb-0 lg:col-span-6">
+          <div class="relative p-1 lg:max-w-[519px]" data-aos-duration="1500" data-aos="zoom-in" data-aos-once="true">
+            <img class="" src="../media/team-img-1.png" alt="" />
+            <div class="absolute p-2 bottom-20 left-12 w-44 bg-trueGray-900">
+              <h2 class="text-lg font-bold leading-none text-white uppercase font-montserrat">
+                Danny Rodas
+              </h2>
+              <h3 class="text-base leading-none text-trueGray-400">
+                Founder
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="relative z-10 flex-col justify-center col-span-12 p-3 lg:col-span-6 lg:flex">
+          <!-- Big Text -->
+          <div class="
+              z-0
+              absolute
+              hidden
+              font-black
+              xl:block
+              text-trueGray-100 text-opacity-75
+              lg:text-[150px]
+              xl:text-[180px]
+              2xl:text-[220px]
+              font-montserrat
+              leading-none
+              xl:top-52
+              2xl:top-44
+              xl:-left-8
+            " data-aos-duration="2500" data-aos="fade-left" data-aos-once="true">
+            <h1 class="">I'm</h1>
+            <h1 class="">Danny</h1>
+          </div>
+          <div data-aos-duration="1500" data-aos="fade-right" data-aos-once="true">
+            <p class="z-10 mb-2 leading-relaxed text-trueGray-500">
+              Hey I'm Danny Rodas, an entrepreneur who loves web design &
+              development.
+            </p>
+            <p class="z-10 mb-2 leading-relaxed text-trueGray-500">
+              <span class="inline-block italic font-semibold text-trueGray-900">I have years of experience</span>
+              working with international clients and a passion for great
+              results. When I founded this agency, I wanted to create something
+              that stood out from the rest, not the usual agency that sells you
+              a package. My goal is to make sure
+              <span class="inline-block italic font-semibold text-trueGray-900">my clients are happy</span>
+              with the results we provide.
+            </p>
+            <p class="z-10 mb-2 leading-relaxed text-trueGray-500">
+              When I'm not working, I love to spend time with my family and
+              travel around the world. I enjoy exercising to keep me full of
+              energy. I also enjoy sci-fi movies & documentaries.
+            </p>
+            <p class="z-10 leading-relaxed text-trueGray-500">
+              Anyway, enough of me... I hope we're able to work with you in the
+              future.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section One -->
+  <div class="relative py-12 overflow-hidden lg:py-20 section-one">
+    <img class="absolute lg:w-[550px] hidden lg:block -top-10 -right-48" src="../media/scribble-2.png" alt="" />
+    <div class="container sm:px-8 md:px-12 xl:px-16 2xl:px-20">
+      <div class="grid grid-cols-12 mb-8">
+        <div class="col-span-12 p-3">
+          <h1 class="text-3xl font-bold lg:text-4xl font-montserrat text-trueGray-900" data-aos-duration="1500"
+            data-aos="fade-right" data-aos-once="true">
+            Who we are
+            <span class="inline-block w-8 h-1 mb-1 ml-2 bg-emerald-400"></span>
+          </h1>
+        </div>
+      </div>
+      <div class="grid grid-cols-12 mb-12 lg:mb-16">
+        <div class="col-span-12 p-3 lg:col-span-6">
+          <img class="mx-auto" src="../media/about-1.png" alt="" data-aos-duration="1500" data-aos="zoom-in"
+            data-aos-once="true" />
+        </div>
+        <div class="flex flex-col justify-center col-span-12 p-3 lg:col-span-6 text-trueGray-500 lg:ml-8"
+          data-aos-duration="1500" data-aos="fade-left" data-aos-once="true">
+          <h1 class="mb-4 text-2xl font-bold text-trueGray-900">
+            Our Mission
+          </h1>
+          <p class="mb-2">
+            We don’t just
+            survive in this highly
+            competitive
+            industry, we thrive,
+            and excel at what
+            we
+            do.
+            Leveraging cutting-edge technologies and deliver high quality work that is distinct from
+            any
+            other design and development agency.
+          </p>
+          <p>
+            We love to work with small and medium companies whether you're just getting started or already established,
+            our mission
+            is to help you achieve your goals and help make your business very successful.
+          </p>
+        </div>
+      </div>
+      <div class="grid grid-cols-12">
+        <div class="flex flex-col justify-center col-span-12 p-3 lg:col-span-6 text-trueGray-500 lg:mr-8"
+          data-aos-duration="1500" data-aos="fade-right" data-aos-once="true">
+          <h1 class="mb-4 text-2xl font-bold text-trueGray-900">
+            Our Values
+          </h1>
+          <p class="mb-2">
+            We work
+            with
+            the
+            conviction that our customers
+            define
+            us, hence we
+            ensure what our
+            customers
+            get assists them in realizing their potential and achieving milestones while growing as
+            a
+            business. We have a niche for creativity and determination guiding you to the ultimate
+            digital success.
+          </p>
+        </div>
+        <div class="col-span-12 p-3 lg:col-span-6">
+          <img class="mx-auto" src="../media/about-2.png" alt="" data-aos-duration="1500" data-aos="zoom-in"
+            data-aos-once="true" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section Two -->
+  <div class="py-16 overflow-hidden section-two bg-emerald-50">
+    <div class="container sm:px-8 md:px-12 xl:px-16 2xl:px-20 counter-container">
+      <div class="grid grid-cols-12 space-y-8 lg:space-y-0 lg:space-x-8">
+        <div class="col-span-12 p-3 space-y-2 text-center lg:col-span-4" data-aos-duration="1500" data-aos="zoom-in"
+          data-aos-once="true">
+          <i class="text-4xl font-bold text-emerald-400 far fa-smile"></i>
+          <h1 class="text-2xl font-bold text-trueGray-900">Happy Clients</h1>
+          <h1 class="inline-block text-5xl font-bold text-emerald-400 counter" data-target="500">
+            0
+          </h1>
+          <span class="inline-block text-4xl font-bold text-emerald-400">+</span>
+        </div>
+        <div class="col-span-12 p-3 space-y-2 text-center lg:col-span-4" data-aos-duration="1500" data-aos="zoom-in"
+          data-aos-once="true">
+          <i class="text-4xl font-bold far fa-calendar-alt text-emerald-400"></i>
+          <h1 class="text-2xl font-bold text-trueGray-900">
+            Years of Experience
+          </h1>
+          <h1 class="inline-block text-5xl font-bold text-emerald-400 counter" data-target="5">
+            0
+          </h1>
+          <span class="inline-block text-4xl font-bold text-emerald-400">+</span>
+        </div>
+        <div class="col-span-12 p-3 space-y-2 text-center lg:col-span-4" data-aos-duration="1500" data-aos="zoom-in"
+          data-aos-once="true">
+          <i class="text-4xl font-bold fas fa-project-diagram text-emerald-400"></i>
+          <h1 class="text-2xl font-bold text-trueGray-900">
+            Projects Completed
+          </h1>
+          <h1 class="inline-block text-5xl font-bold text-emerald-400 counter" data-target="600">
+            0
+          </h1>
+          <span class="inline-block text-4xl font-bold text-emerald-400">+</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section Three -->
+  <div class="relative py-12 overflow-hidden lg:py-20 section-three">
+    <img class="
+          absolute
+          lg:w-[550px]
+          hidden
+          lg:block
+          -bottom-28
+          -left-32
+          transform
+          -rotate-12
+        " src="../media/scribble-2.png" alt="" />
+    <div class="container sm:px-8 md:px-12 xl:px-16 2xl:px-20">
+      <div class="grid grid-cols-12">
+        <div class="flex flex-col justify-center h-full col-span-12 p-3 lg:col-span-6 lg:mr-8" data-aos-duration="1500"
+          data-aos="fade-right" data-aos-once="true">
+          <h1 class="mb-4 text-2xl font-bold text-trueGray-900 font-montserrat">
+            What our clients say
+          </h1>
+          <div class="glide text-trueGray-500">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                  <p class="mb-2 italic leading-relaxed">
+                    "Totally the agency you would want to be on your side! I
+                    love the way they take interest in your work and treat is
+                    like their very own, phenomenal creations and delivery."
+                  </p>
+                  <p class="font-bold uppercase text-trueGray-900">
+                    <span class="inline-block mr-2 text-emerald-400">-</span>Susanna Brent
+                  </p>
+                </li>
+                <li class="glide__slide">
+                  <p class="mb-2 italic leading-relaxed">
+                    "Be Designs designed and developed my company's website.
+                    Their attitude to work was exceptional. I received great
+                    customer service throughout the process. I am pleased with
+                    the quality of work and will recommend their services to
+                    everyone."
+                  </p>
+                  <p class="font-bold uppercase text-trueGray-900">
+                    <span class="inline-block mr-2 text-emerald-400">-</span>Ryan Rodriguez
+                  </p>
+                </li>
+                <li class="glide__slide">
+                  <p class="mb-2 italic leading-relaxed">
+                    "Working with the Be Designs team has been the most
+                    pleasant experience! Their dedication and passion for what
+                    they do is shown by their unrivaled customer support and
+                    attention to the specific needs of our business. We look
+                    forward to a long lasting and prosperous relationship with
+                    the team at Be Designs."
+                  </p>
+                  <p class="font-bold uppercase text-trueGray-900">
+                    <span class="inline-block mr-2 text-emerald-400">-</span>Soraia Ribeiro
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-12 p-3 lg:col-span-6">
+          <img class="w-[552px] 2xl:w-auto mx-auto" src="../media/about-3.png" alt="" data-aos-duration="1500"
+            data-aos="zoom-in" data-aos-once="true" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section Four -->
+  <div class="py-12 overflow-hidden lg:py-20 section-four bg-emerald-50">
+    <div class="container sm:px-8 md:px-12 xl:px-16 2xl:px-20">
+      <div class="grid grid-cols-12">
+        <div class="col-span-12 p-3 lg:col-span-6">
+          <img class="w-[552px] 2xl:w-auto mx-auto" src="../media/about-4.png" alt="" data-aos-duration="1500"
+            data-aos="zoom-in" data-aos-once="true" />
+        </div>
+        <div class="flex flex-col justify-center h-full col-span-12 p-3 lg:col-span-6 lg:ml-8" data-aos-duration="1500"
+          data-aos="fade-left" data-aos-once="true">
+          <h1 class="mb-4 text-2xl font-bold text-trueGray-900 font-montserrat">
+            What our clients normally ask
+          </h1>
+          <div class="text-trueGray-500">
+            <h3
+              class="relative p-2 text-base font-bold transition-colors duration-200 cursor-pointer accordion-tab font-montserrat text-trueGray-900 is-open">
+              Design & Development Process
+            </h3>
+            <div class="overflow-hidden duration-300 accordion-text transition-height">
+              <p class="p-2 leading-relaxed">
+                We design and develop every project from scratch. We first like to have a good understanding of what
+                you're looking for, then we proceed to create the first draft for your approval. Once you have approved,
+                we move on to the next stage which is where most work is done, considering any adjustments you might've
+                requested.
+              </p>
+            </div>
+            <h3
+              class="relative p-2 text-base font-bold transition-colors duration-200 border-t border-opacity-50 cursor-pointer accordion-tab font-montserrat text-trueGray-900">
+              Our processing time
+            </h3>
+            <div class="h-0 overflow-hidden duration-300 accordion-text transition-height">
+              <p class="p-2 leading-relaxed">
+                Each project is different and while some may take us less time than others, we will always try to
+                deliver your project within 10 business days. If for any reason there are delays, we will make sure to
+                communicate it to you. In most cases we deliver within a week's time.
+              </p>
+            </div>
+            <h3
+              class="relative p-2 text-base font-bold transition-colors duration-200 border-t border-opacity-50 cursor-pointer accordion-tab font-montserrat text-trueGray-900">
+              How do i pay and payment method
+            </h3>
+            <div class="h-0 overflow-hidden duration-300 accordion-text transition-height">
+              <p class="p-2 leading-relaxed">
+                Because of the nature of our business and to provide services internationally, we use <a
+                  class="font-bold" href="https://www.payoneer.com" target="_blank">Payoneer</a>. Payoneer is the
+                world’s go-to partner for digital commerce, everywhere. They are secure and handle all private
+                information safely. The accepted payment methods are Credit & Debit cards from Visa, Mastercard and
+                American Express.
+              </p>
+            </div>
+            <h3
+              class="relative p-2 text-base font-bold transition-colors duration-200 border-t border-opacity-50 cursor-pointer accordion-tab font-montserrat text-trueGray-900">
+              What is our refund policy
+            </h3>
+            <div class="h-0 overflow-hidden duration-300 accordion-text transition-height">
+              <p class="p-2 leading-relaxed">
+                In any event, any payments made to BeDesigns for a project shall not be subject to refund after delivery
+                of the
+                initial design concepts are approved, or a change is requested, unless BeDesigns cancels or terminates
+                your contract for any reason. For more details, please read our
+                <a class="font-bold" href="terms-and-conditions.html">Terms & Conditions</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="section-four bg-trueGray-900">
+    <div class="container py-4">
+      <div class="grid grid-cols-12 text-white">
+        <div
+          class="flex flex-col items-center justify-center col-span-12 p-3 space-y-2 text-sm sm:space-y-0 sm:flex-row lg:text-base sm:space-x-4 lg:space-x-6">
+          <a class="inline-block p-2 font-semibold" href="../index.html">Home</a>
+          <a class="inline-block p-2 text-emerald-400" href="about.html">About</a>
+          <a class="inline-block p-2" href="services.html">Services</a>
+          <a class="inline-block p-2" href="portfolio.html">Portfolio</a>
+          <a class="inline-block p-2" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="container py-4 border-t border-trueGray-600">
+      <div class="grid grid-cols-12">
+        <div class="flex justify-center col-span-12 p-3 text-sm text-trueGray-600">
+          <p>
+            © <span class="inline-block" id="auto-year"></span> BeDesigns -
+            All Rights Reserved.
+          </p>
+        </div>
+        <div class="col-span-12 p-3">
+          <div class="flex justify-center space-x-1 text-sm text-trueGray-400">
+            <a class="transition-colors duration-200 hover:text-emerald-400" href="terms-and-conditions.html">Terms &
+              Conditions</a>
+            <div>|</div>
+            <a class="transition-colors duration-200 hover:text-emerald-400" href="privacy.html">Privacy
+              Policy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cookies -->
+  <div class="fixed bottom-0 z-30 hidden w-56 p-3 text-sm font-medium text-white left-2 bg-trueGray-900" id="cookies">
+    <p class="mb-2">We use <a class="inline-block font-medium text-emerald-400" href="public/privacy.html">cookies</a>
+      🍪 to help our
+      website
+      run
+      effectively.
+      <span class="inline-block mt-2">
+        By
+        using
+        this website,
+        you agree to our use
+        of cookies.
+      </span>
+    </p>
+    <button type="button" class="w-full p-2 font-bold uppercase bg-emerald-400" id="cookies-btn"
+      onclick="hideCookies()">I
+      accept</button>
+  </div>
+
+  <!-- Cookie JS -->
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.0/dist/js.cookie.min.js"></script>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- Main Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+  <script src="about.js"></script>
+  <script src="../public/script.js"></script>
+
+  <!--Start of Tawk.to Script-->
+  <script defer type="text/javascript">
+    var Tawk_API = Tawk_API || {},
+      Tawk_LoadStart = new Date();
+    (function () {
+      var s1 = document.createElement("script"),
+        s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = 'https://embed.tawk.to/611d4001d6e7610a49b0d37b/1fdd441le';
+      s1.charset = 'UTF-8';
+      s1.setAttribute('crossorigin', '*');
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  </script>
+  <!--End of Tawk.to Script-->
+</body>
+
+</html>

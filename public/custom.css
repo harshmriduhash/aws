@@ -1,0 +1,104 @@
+/*********** About Section Divider ***********/
+
+/* Mobile Top Section Divider */
+.custom-shape-divider-top-1626278832 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1626278832 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1626278832 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* Mobile Bottom Section Divider */
+.custom-shape-divider-bottom-1626278991 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1626278991 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1626278991 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* Desktop Top Section Divider */
+.custom-shape-divider-top-1626279127 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1626279127 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1626279127 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* Desktop Bottom Section Divider */
+.custom-shape-divider-bottom-1626279214 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1626279214 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1626279214 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/*********** Accordion ***********/
+.accordion-tab::after {
+    content: "\002b";
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    font-size: 24px;
+}
+
+.accordion-tab.is-open::after {
+    content: "\2212";
+}

@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name=”robots” content="index, follow">
+
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="../public/style.css" />
+    <link rel="stylesheet" href="../public/custom.css" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="../media/bedesign-green-logo_mobile.png" />
+
+    <!-- Font Awesome -->
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        referrerpolicy="no-referrer" />
+
+    <title>Terms & Conditions | Logo & Web Design Agency | BeDesigns</title>
+</head>
+
+<body class="font-lato">
+    <!-- Navbar -->
+    <div class="" id="navbar-wrap">
+        <div class="container grid grid-cols-2 sm:px-8 md:px-12 xl:px-16 2xl:px-20">
+            <!-- Logo -->
+            <div class="col-span-1 p-3">
+                <a href="../index.html">
+                    <img class="lg:hidden" src="../media/bedesign-green-logo_mobile.png" alt="" />
+                    <img class="hidden lg:block" src="../media/bedesign-green-logo_desktop.png" alt="" />
+                </a>
+            </div>
+            <!-- Open Menu Button & Desktop Nav -->
+            <div class="flex items-center justify-end col-span-1 p-3">
+                <div class="hidden space-x-1 text-base font-semibold lg:inline-block text-trueGray-900">
+                    <a class="inline-block p-2" href="../index.html">Home</a>
+                    <a class="inline-block p-2" href="about.html">About</a>
+                    <a class="inline-block p-2" href="services.html">Services</a>
+                    <a class="inline-block p-2" href="portfolio.html">Portfolio</a>
+                    <a class="inline-block p-2" href="contact.html">Contact</a>
+                </div>
+                <!-- Social Media -->
+                <div class="hidden ml-4 lg:inline-block">
+                    <div>
+                        <a href="https://www.instagram.com/bedesigns.agency/" target="_blank" rel="noopener"
+                            class="duration-200 hover:text-emerald-400">
+                            <i class="inline-block p-2 text-2xl fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <button class="inline-block p-2 space-y-1 transition-opacity duration-300 lg:hidden open-menu-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide Menu -->
+    <div
+        class="fixed top-0 right-0 z-50 h-screen text-sm text-white transition-all duration-300 transform translate-x-full slide-menu backdrop-filter backdrop-blur-sm bg-trueGray-900 bg-opacity-90 w-72 lg:hidden">
+        <div class="grid grid-cols-1">
+            <!-- Close Menu Button  -->
+            <div class="flex items-center justify-end col-span-1 px-8 py-2">
+                <button class="p-2 text-4xl close-menu-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            <!-- Menu Links -->
+            <div class="col-span-1 px-8 py-2">
+                <div class="flex flex-col space-y-2 overflow-hidden font-semibold ">
+                    <a class="pt-4 pb-2 transition-all duration-500 delay-100 translate-x-full border-b border-opacity-25 opacity-0 menu-link"
+                        href="../index.html">Home</a>
+                    <a class="pt-4 pb-2 transition-all duration-500 delay-200 translate-x-full border-b border-opacity-25 opacity-0 menu-link"
+                        href="about.html">About</a>
+                    <a class="pt-4 pb-2 transition-all duration-500 delay-300 translate-x-full border-b border-opacity-25 opacity-0 menu-link"
+                        href="services.html">Services</a>
+                    <a class="pt-4 pb-2 transition-all duration-500 translate-x-full border-b border-opacity-25 opacity-0 delay-400 menu-link"
+                        href="portfolio.html">Portfolio</a>
+                    <a class="pt-4 pb-2 transition-all duration-500 delay-500 translate-x-full border-b border-opacity-25 opacity-0 menu-link"
+                        href="contact.html">Contact</a>
+                </div>
+            </div>
+            <!-- Social Media -->
+            <div class="col-span-1 px-8 py-12 font-semibold">
+                <div class="space-y-4 transition-all duration-500 delay-500 translate-x-full opacity-0 menu-link">
+                    <p>Visit Us On:</p>
+                    <a href="https://www.instagram.com/bedesigns.agency/" target="_blank" rel="noopener"
+                        class="inline-block">
+                        <i class="text-xl fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Menu Overlay -->
+    <div
+        class="fixed top-0 z-40 hidden w-screen h-screen bg-opacity-25 cursor-pointer slide-menu-overlay bg-trueGray-900 lg:hidden">
+    </div>
+
+    <!-- Section One -->
+    <div class="relative py-32 overflow-hidden section-one">
+        <img class="absolute lg:w-[550px] hidden lg:block -top-48 right-0" src="../media/scribble-2.png" alt="" />
+        <div class="container sm:px-8 md:px-12 xl:px-16 2xl:px-20">
+            <div class="grid grid-cols-12">
+                <div class="col-span-12 p-3">
+                    <h1 class="mb-8 text-3xl font-bold lg:text-4xl font-montserrat text-trueGray-900">
+                        Terms & Conditions
+                        <span class="inline-block w-8 h-1 mb-1 ml-2 bg-emerald-400"></span>
+                    </h1>
+
+                    <p class="mb-8 text-sm text-trueGray-500">Last updated: <span
+                            class="inline-block text-xs font-bold">Aug
+                            18,
+                            2021</span></p>
+
+                    <p class="text-trueGray-500 lg:max-w-[90%] mb-4 text-sm">We give our best to tranform your business
+                        digitally
+                        through our log and website design service.
+                        You can place your trust on the flexibility and personal attention you will receive throughout
+                        the whole working process. Please find the following terms as support in order to maintain our
+                        working relationship.</p>
+
+                    <h2 class="font-bold uppercase text-trueGray-500">Acceptance of Terms</h2>
+                    <p class="text-trueGray-500 lg:max-w-[90%] mb-4 text-sm">When you visit BeDesigns (The website) you
+                        agree to
+                        abide
+                        by the terms
+                        and conditions and you consent to our privacy policy. If you don’t agree to any of the terms and
+                        conditions mentioned in this document, you should not go ahead with any service/products from us
+                        and leave this website immediately. You agree that you will not be making use of this website
+                        for unlawful purposes and would bear in mind all the laws and regulations. You agree to not use
+                        this website in a way that may impact its performance, corrupt the content or in any way hinder
+                        the functionality of this website. You also agree to not compromise the safety of this website
+                        or trying to enter restricted areas of this website.
+                        <span class="block mt-2">You consent to be entirely responsible for any claim, liability,
+                            expense, costs and losses
+                            that
+                            include legal fees by us which starts from violation of the mentioned terms and
+                            conditions.</span>
+                    </p>
+
+                    <h2 class="font-bold uppercase text-trueGray-500">Revision Policy</h2>
+                    <p class="text-trueGray-500 lg:max-w-[90%] mb-4 text-sm">BeDesigns gives you assurance regarding
+                        unlimited
+                        revisions
+                        according
+                        to your particular packages. Clients can ask for revisions as per the package and no extra fee
+                        will be charged. However, design and concept will remain identical and the customer can post
+                        revision on any one of the provided options. Revision on numerous options is either inadmissible
+                        or will be charged discretely. Normal Revision reversal time would be 48 to 72 hours for logo
+                        and website design. Similarly, the timelines for functionality and Development revisions may
+                        also differ contingent on the scope of work.</p>
+
+                    <h2 class="font-bold uppercase text-trueGray-500">New Order Turnaround Time</h2>
+                    <p class="text-trueGray-500 lg:max-w-[90%] mb-4 text-sm">Turnaround time refers to the time in which
+                        your
+                        design
+                        concepts are
+                        digitally delivered to you against your package purchase. For all logo new orders, the
+                        turnaround time is from 48 hours to maximum 72 hours. However, for packages with four or more
+                        logo concepts, the turnaround time is at least 72 hours or more (depending on the amount of
+                        work) after order confirmation and complete brief submission. Moreover, in the case of new
+                        website design (home/index, including revamp designs, etc.), the minimum turnaround time is 72
+                        hours after order confirmation and complete brief submission. Please also note that the
+                        turnaround time, as pertains to website development (static website having 5 to 7 webpages) is
+                        between five to ten business days. For all orders placed on Friday, Saturday or Sunday, the
+                        delivery time starts from Monday. If you have chosen an illustrative logo (logos with
+                        illustration element or illustrated design), the first concept will be provided from 48 to 72
+                        hours of order confirmation.</p>
+
+                    <h2 class="font-bold uppercase text-trueGray-500">Refund Policy</h2>
+                    <p class="text-trueGray-500 lg:max-w-[90%] mb-4 text-sm">We have a 100 percent money back guarantee
+                        policy.
+                        This
+                        means if you
+                        are not satisfied with the initial mockups delivered, you can request a full refund of what you
+                        paid. We wish to make refund as soon as they are requested. The refund, however, may take up to
+                        21 business days to process.
+                        <span class="block mt-2">
+                            To claim a refund, you are required to send an email to payments@bedesigns.net with your
+                            request. Please note that emailing us for a refund request is mandatory and if we do not
+                            find
+                            the reasons for your refund request to be satisfactory, then we reserve the right to deny
+                            the
+                            refund.
+                        </span>
+                    </p>
+
+                    <h3 class="text-xs font-bold uppercase text-trueGray-500">Refunds are not applicable in following
+                        scenarios:
+                    </h3>
+                    <p class="text-trueGray-500 lg:max-w-[90%] mb-4 text-sm">
+                        <span>
+                            Once we start working on revisions as per
+                            your
+                            feedback,
+                            no refund can
+                            be claimed since your request for revisions is deemed to be your confirmation to proceed
+                            with
+                            the shortlisted mockup(s).
+                        </span>
+                        <span class="block mt-2">
+                            If the mock-up(s) delivered to you are based on an explicit design idea shared by you, e.g.
+                            a
+                            sketch, or the mockups are just a recreation of an existing logo design shared by you.
+                        </span>
+                        <span class="block mt-2">
+                            No refund is available for design firms or for those who order our design services on behalf
+                            of
+                            another entity.
+                        </span>
+                        <span class="block mt-2">
+                            Content writing provided by BeDesigns are payable in advance and are non-refundable.
+                        </span>
+                        <span class="block mt-2">
+                            The delivery timeline is approximate and may be subject to delays due to local holidays, the
+                            complexity of the project, and the current workload of BeDesigns. We typically deliver logos
+                            within 3 business days, and website designs within 7-10 business days.
+                        </span>
+                        <span class="block mt-2">
+                            You shall have 10 days to respond to each original design and/or revision we send you. If
+                            after
+                            10 days you fail to respond to us, BeDesigns will assume that your project is complete. At
+                            such
+                            time, BeDesigns will have no further obligation to you, and you will pay BeDesigns pursuant
+                            to
+                            the provisions of these Terms and Conditions. Notwithstanding the foregoing, BeDesigns
+                            reserves
+                            the right, in its sole discretion, to terminate your access to all or a portion of the
+                            Service,
+                            at any time, with or without notice. In the event of such termination, BeDesigns will
+                            determine,
+                            in its sole discretion, whether you are entitled to any refund.
+                        </span>
+                        <span class="block mt-2">
+                            Reasons such as ‘change of mind’, 'disagreement with partner’ or other reasons that do not
+                            pertain to the service will not be subject to refund under any circumstances.
+                        </span>
+                        <span class="block mt-2">
+                            The client has not been contacted for more than 2 weeks of project. The client will not be
+                            entitled to any refunds after 15 days, from the date of purchase.
+                        </span>
+                        <span class="block mt-2">
+                            Services including but not limited to Domain Registration and Web Hosting are not entitled
+                            to
+                            refunds under any circumstances.
+                        </span>
+                        <span class="block mt-2">
+                            <span class="font-bold">Note: </span>BeDesigns holds all rights to reject any project or
+                            cancel the contract
+                            whenever it
+                            deems
+                            necessary. After the refund, you will not have any rights to use the designs for any
+                            purpose;
+                            they will be the sole property of BeDesigns. The company will be the rightful owner of the
+                            designs.
+                        </span>
+                    </p>
+
+                    <h2 class="font-bold uppercase text-trueGray-500">Claim your refund</h2>
+                    <p class="text-trueGray-500 lg:max-w-[90%] mb-4 text-sm">
+                        <span class="block">
+                            To have your refund, follow the following
+                            steps:
+                        </span>
+                        <span class="block mt-2">
+                            You can claim your refund by sending us an email at:
+                        </span>
+                        <a class="block mt-2 text-emerald-400"
+                            href="mailto:payments@bedesigns.net">payments@bedesigns.net</a>
+                        <span class="block mt-2">
+                            As soon as we receive your refund request, we will respond to it at our earliest, once the
+                            required analysis is completed we will initiate the process.
+                        </span>
+                        <span class="block mt-2">
+                            After you have received your refund, you will not have any rights to any designs provided by
+                            BeDesigns, the information will be submitted to the Copyright Acquisition of the Government
+                            Copyright Agencies to maintain legality.
+                        </span>
+                    </p>
+
+                    <h2 class="font-bold uppercase text-trueGray-500">Refunds</h2>
+                    <p class="text-trueGray-500 lg:max-w-[90%] mb-4 text-sm">BeDesigns will make refunds of the project
+                        to
+                        customers
+                        using the same
+                        payment methods that customers used to make their payment to BeDesigns or via any other method
+                        specified by BeDesigns from time to time. BeDesigns determines that issuing a refund to a
+                        customer will avoid any dispute or chargeback.</p>
+
+                    <h2 class="font-bold uppercase text-trueGray-500">Content Policy</h2>
+                    <p class="text-trueGray-500 lg:max-w-[90%] mb-4 text-sm">Our content policy plays an important role
+                        in
+                        maintaining a
+                        positive
+                        experience for you, the client. For the usual websites and logos, all content such as images,
+                        headings, copy, text etc. will be provided by the client. For an e-commerce website products and
+                        product information will be provided by the client including product name, product price, and
+                        product images and shipping policy.
+                        We use dummy text (Lorem Ipsum) in the graphics for previewing layouts and visual mockups. All
+                        future updates or adjustments after the final delivery of a logo or a website will be charged
+                        separately and be considered a new service request.
+                    </p>
+
+                    <h2 class="font-bold uppercase text-trueGray-500">Quality Assurance Policy</h2>
+                    <p class="text-trueGray-500 lg:max-w-[90%] mb-4 text-sm">
+                        We do our best to meet your requirements
+                        and our
+                        designers
+                        do their
+                        best to fulfill your expectations. We believe in providing the best designs and each of our
+                        designs are well researched and well
+                        crafted.
+                    </p>
+
+                    <h2 class="font-bold uppercase text-trueGray-500">100% Satisfaction Guarantee</h2>
+                    <p class="text-trueGray-500 lg:max-w-[90%] mb-4 text-sm">
+                        <span class="block">
+                            • Our unlimited revisions policy is to make
+                            sure
+                            that
+                            you
+                            are 100%
+                            satisfied within the same order.
+                        </span>
+                        <span class="block mt-2">
+                            • We aim at exceeding your expectations and strive to accomplish it.
+                        </span>
+                        <span class="block mt-2">
+                            • We do not stop our revisions until you are completely satisfied with your design.
+                        </span>
+                    </p>
+
+                    <h2 class="font-bold uppercase text-trueGray-500">Delivery Policy</h2>
+                    <p class="text-trueGray-500 lg:max-w-[90%] mb-4 text-sm">
+                        <span class="block">
+                            • The complete order will be sent to you digitally via email.
+                        </span>
+                        <span class="block mt-2">
+                            • We do not deliver any physical products. All of our services are offered in digital format
+                            and
+                            will be delivered as such.
+                        </span>
+                        <span class="block mt-2">
+                            • In case of an urgent order, contact our customer support team at <a
+                                class="text-emerald-400" href="mailto:info@bedesigns.net">info@bedesigns.net</a>
+                        </span>
+                    </p>
+
+                    <h2 class="font-bold uppercase text-trueGray-500">Record Maintenance</h2>
+                    <p class="text-trueGray-500 lg:max-w-[90%] mb-4 text-sm">BeDesigns keeps the records of finalized
+                        designs so
+                        that
+                        in
+                        case of any
+                        misplaced orders, you will be provided the exact digital files.</p>
+
+                    <h2 class="font-bold uppercase text-trueGray-500">Customer Support</h2>
+                    <p class="text-trueGray-500 lg:max-w-[90%] mb-4 text-sm">Our customer support is available during
+                        our hours
+                        of
+                        operation to
+                        answer all of your concerns and queries. We will answer your concerns as soon as possible.</p>
+
+                    <h2 class="font-bold uppercase text-trueGray-500">Communication Policy</h2>
+                    <p class="text-trueGray-500 lg:max-w-[90%] mb-8 text-sm">
+                        <span class="block">
+                            • BeDesigns will not be responsible for any communication done via any other platform than
+                            “….@bedesigns.net” or any telephone numbers not provided by us or given on our official
+                            website.
+                        </span>
+                        <span class="block mt-2">
+                            • We are not responsible for any damages caused due to other contact details not provided by
+                            us.
+                        </span>
+                        <span class="block mt-2">
+                            • We take full responsibility of all the information provided through our official domain.
+                        </span>
+                    </p>
+                    <h3 class="block text-xs font-bold uppercase text-trueGray-500">If you have any questions in
+                        regards
+                        to
+                        our Terms & Conditions, please contact us using the contact form on our website.</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="section-four bg-trueGray-900">
+        <div class="container py-4">
+            <div class="grid grid-cols-12 text-white">
+                <div
+                    class="flex flex-col items-center justify-center col-span-12 p-3 space-y-2 text-sm sm:space-y-0 sm:flex-row lg:text-base sm:space-x-4 lg:space-x-6">
+                    <a class="inline-block p-2 font-semibold" href="../index.html">Home</a>
+                    <a class="inline-block p-2" href="about.html">About</a>
+                    <a class="inline-block p-2" href="services.html">Services</a>
+                    <a class="inline-block p-2" href="portfolio.html">Portfolio</a>
+                    <a class="inline-block p-2" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="container py-4 border-t border-trueGray-600">
+            <div class="grid grid-cols-12">
+                <div class="flex justify-center col-span-12 p-3 text-sm text-trueGray-600">
+                    <p>
+                        © <span class="inline-block" id="auto-year"></span> BeDesigns -
+                        All Rights Reserved.
+                    </p>
+                </div>
+                <div class="col-span-12 p-3">
+                    <div class="flex justify-center space-x-1 text-sm text-trueGray-400">
+                        <a class="transition-colors duration-200 text-emerald-400"
+                            href="terms-and-conditions.html">Terms & Conditions</a>
+                        <div>|</div>
+                        <a class="transition-colors duration-200 hover:text-emerald-400" href="privacy.html">Privacy
+                            Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="../public/script.js"></script>
+</body>
+
+</html>
